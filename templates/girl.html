@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优品服饰</title>
+<style>
+.head{
+    width:85%;
+    height: auto;
+    margin: 0 auto;
+    min-width: 1200px;
+}
+div,p,ul,li{
+    padding:0;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+div{
+    display: block;
+    unicode-bidi:isolate;
+}
+body{
+    line-height: 24px;
+    font-family: 'HarmonyOS_Sans_SC', "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #ffffff;
+    font-size: 12px;
+    color: #636363;
+    -webkit-text-size-adjust: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+}
+.headr{
+    padding-top: 0;
+}
+.fr{
+    float: right;
+}
+.headra {
+    width: auto;
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+    text-align: right;
+    padding-top: 25px;
+    padding-left: 30px;
+    background: url(/static/image/z_top_phone.png) no-repeat left 28px;
+}
+
+.headra span{
+    color: #e60011;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    float: right;
+}
+span{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 1450px) {
+    .headrb {
+        margin-right: 25px;
+    }
+}
+.headrb {
+    padding-top: 0;
+    width: auto;
+    height: auto;
+    text-align: right;
+    padding-right: 25px;
+}
+ul,li{
+    list-style-type: none;
+}
+@media (max-width: 1450px) {
+    .headrb ul li {
+        margin-left: 25px;
+    }
+}
+.headrb ul li {
+    display: inline-block;
+    line-height: 80px;
+    position: relative;
+    z-index: 999;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+li {
+    list-style: none;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.headrb ul li a.one:hover {
+    border-bottom: 2px solid red;
+    padding-bottom: 1px;
+    color: red;
+}
+.headrb ul li a.one {
+    font-size: 16px;
+    color: #333333;
+    display: block;
+    height: 78px;
+    line-height: 78px;
+    border-bottom: 2px #fff solid;
+    font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+}
+.headrb ul li a.weare {
+    padding-right: 20px;
+    background: url(/static/image/jt.png) no-repeat right 50%;
+}
+.cl {
+    clear: both;
+}
+.A {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+.A .Aa {
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    background: #f3f3f3;
+    width: 100%;
+}
+.A .Aa .Ab{
+    margin: auto;
+    width:100%;
+    position: relative;
+}
+.Ac{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px 0;
+}
+.Ac ul li {
+    display: inline-block;
+    height: 45px;
+    border-right: 1px #d1d1d1 solid;
+    margin-right: 40px;
+}
+.Ac ul li:last-child{
+    border-right:0;
+    margin-right:0;
+}
+.Ac ul li a{
+    display:block;
+    padding:0 36px 0 55px;
+    font-size:16px;
+    color:#333333;
+    line-height:45px;font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+.Ac ul li:nth-of-type(1) a {
+    background: url(/static/image/zz_menu_icon1.png) no-repeat left 50%;
+}
+.Ac ul li:nth-of-type(2) a {
+    background: url(/static/image/zz_menu_icon2.png) no-repeat left 50%;
+}
+.Ac ul li a:hover{
+    color: red;
+}
+nav{
+  padding: 20px;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 清除浮动 */
+  background-color: white; /* 导航栏背景色 */
+  width: 1150px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+/* 导航栏链接样式 */
+.navbar li {
+  float: left; /* 让列表项浮动以水平排列 */
+  width: 230px;
+  height: 100%;
+}
+
+.navbar li a {
+  display: block; /* 将链接转化为块级元素，使其占据整行 */
+  color: #333; /* 链接文本颜色 */
+  text-align: center; /* 文本居中 */
+  font-size: 16px;
+  padding: 25px 16px; /* 内边距 */
+  text-decoration: none; /* 移除下划线 */
+  height: 100%;
+}
+
+/* 链接的悬停效果 */
+.navbar li a:hover {
+  background-color: pink; /* 悬停时背景色 */
+}
+.bounk{
+    background-color: #eee;
+    height: 1150px;
+}
+.Zhong{
+  padding: 0;
+  background-color: white;
+
+  display: flex;
+}
+.paixu{
+    width: 230px;
+    height: 360px;
+    margin: 0 auto;
+}
+</style>
+</head>
+<body>
+
+<div class="head">
+    <div class="headr fr">
+        <div class="headra fr">
+            <p>
+                <span>511-611-9911</span>
+            </p>
+        </div>
+        <div class="headrb fr">
+            <ul>
+                <li>
+                    <a href="/" class="one shouye">首页</a>
+                </li>
+                <li>
+                    <a href="/girl" class="girl one" rel="nofollow">优品女装</a>
+                </li>
+                <li>
+                    <a href="" class="man one">优品男装</a>
+                </li>
+                <li _t_nav="head_about" class>
+                    <a href="" class="weare one" rel="nofollow">关于我们</a>
+                </li>
+                <li _t_nav="head_service" class>
+                    <a href="" class="weare one" rel="nofollow">更多服务</a>
+                </li>
+                {% if session['logged_in'] %}
+                <li><a href="" class="one" rel="nofollow">{{session.username}}</a></li>
+                <li><a href="/logout" class="one" rel="nofollow">退出</a></li>
+                <li><a href="/bashboard" class="one" rel="nofollow">商城</a></li>
+                {% else %}
+                <li><a href="/login" class="one" rel="nofollow">登录</a></li>
+                <li><a href="/register" class="one" rel="nofollow">注册</a></li>
+                {% endif %}
+            </ul>
+            <div class="cl"></div>
+        </div>
+        <div class="cl"></div>
+    </div>
+    <div class="cl"></div>
+</div>
+<div class="bounk">
+<nav>
+  <ul class="navbar">
+    <li><a href="#Zhong">中式旗袍</a></li>
+    <li><a href="#">韩版长裙</a></li>
+    <li><a href="#">夏日短裙</a></li>
+    <li><a href="#">时尚穿搭</a></li>
+    <li><a href="#">潮流衣品</a></li>
+  </ul>
+</nav>
+<div id="Zhong" class="Zhong">
+    {% for product_temp in comment_products %}
+        <div class="paixu">
+            <a href="#" target="_blank" class="comment_product">
+                <img src="{{product_temp.images}}" width="230" height="333" alt="">
+                <div style="text-align: center;">
+                    <span class="product_title">{{product_temp.pname}}</span>
+                    <span class="price">价格为：${{product_temp.new_price}}元</span>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+</div>
+
+</div>
+</body>
+</html>
